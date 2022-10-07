@@ -1,0 +1,466 @@
+.career {
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.career .first {
+    width: 100%;
+    max-width: 1280px;
+    padding: 40px 20px 0px;
+    margin: auto;
+}
+
+.career .inFirst {
+    flex-direction: row;
+    max-width: min(1280px, 100% - 40px);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+}
+
+.career .inFirst .left {
+    max-width: 45%;
+}
+
+.career .inFirst .left h1,
+.career .third h2,
+.career .inFifth h2,
+.career .seven h2,
+.career .eight h2 {
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 0px;
+    color: rgb(4, 17, 29);
+    margin-bottom: 40px;
+}
+
+#dark .career .inFirst .left h1,
+#dark .career .third h2,
+#dark .career .inFifth h2,
+#dark .career .seven h2,
+#dark .career .eight h2 {
+    color: rgb(255, 255, 255);
+}
+
+.career .inFirst .left p,
+.career .third p,
+.career .inFifth p,
+.career .seven p,
+.career .eight p {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(53, 56, 64);
+    margin-bottom: 50px;
+}
+
+#dark .career .inFirst .left p,
+#dark .career .third p,
+#dark .career .inFifth p,
+#dark .career .seven p,
+#dark .career .eight p {
+    color: rgb(229, 232, 235);
+}
+
+.career .inFirst .left .left_footer {
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+.career .inFirst .left .left_footer a {
+    width: 260px;
+    border: 1px solid rgb(229, 232, 235);
+    border-radius: 10px;
+    line-height: 18px;
+    font-size: 14px;
+    color: rgb(53, 56, 64);
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#dark .career .inFirst .left .left_footer a {
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(21, 27, 34);
+}
+
+.jdjdj {
+    width: 40px;
+}
+
+.cSvgM {
+    min-height: 35px;
+    min-width: 35px;
+    max-height: 35px;
+    max-width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(240, 220, 40);
+    padding: 5px;
+}
+
+.career .inFirst .right {
+    width: 40%;
+}
+
+.career .inFirst .right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.career .second {
+    max-width: min(1100px, 100vw - 20px);
+    min-width: min(1100px, 100vw - 20px);
+    transition: all 0.1s ease 0s;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.career .second .slideBox {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.career .second .inSlideBox {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.career .second .inSlideBox:hover {
+    box-shadow: rgb(4 17 29 / 25%) 0px 0px 8px 0px;
+    cursor: pointer;
+}
+
+.career .second .inSlideBox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(100%);
+}
+
+.career .second .inSlideBox img:hover {
+    filter: grayscale(0%);
+}
+
+.career .third, .career .fourth,
+.career .fifth, .career .seven,
+.career .eight {
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+    padding: 40px 20px 0px;
+}
+
+.career .third h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.career .third p {
+    max-width: 720px;
+    text-align: center;
+    margin: auto;
+}
+
+.career .fourth {
+    position: relative;
+}
+
+.career .inFourth {
+    max-width: 100%;
+    position: relative;
+}
+
+.career .inFourth img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.2;
+}
+
+.career .inFourth .mapL {
+    position: absolute;
+    width: 0.7em;
+    height: 0.7em;
+    background-color: rgb(32, 129, 226);
+    border-radius: 50%;
+    box-shadow: rgb(32 129 226 / 30%) 0px 0px 0px 3px;
+    will-change: transform, box-shadow;
+    animation: 3s ease 0s infinite normal none running pulse;
+    cursor: pointer;
+}
+
+.career .inFourth .mapL:hover {
+    animation: 0s ease 0s 1 normal none running none;
+    transform: scale3d(1.35, 1.35, 1);
+    box-shadow: rgb(32 129 226 / 30%) 0px 0px 0px 5px;
+}
+
+.career .inFourth .mapL.o {
+    left: 22%;
+    top: 26%;
+}
+
+.career .inFourth .mapL.t {
+    left: 23%;
+    top: 49%;
+}
+
+.career .inFourth .mapL.th {
+    left: 12%;
+    top: 35%;
+}
+
+.career .inFourth .mapL.f {
+    left: 10%;
+    top: 28%;
+}
+
+.career .inFourth .mapL.fi {
+    left: 6%;
+    top: 30%;
+}
+
+.career .inFourth .mapL.s {
+    left: 19%;
+    top: 27%;
+}
+
+.career .inFourth .mapL.se {
+    left: 8%;
+    top: 21%;
+}
+
+.career .inFourth .mapL.e {
+    left: 22%;
+    top: 23%;
+}
+
+.career .inFourth .mapL.n {
+    left: 45%;
+    top: 24%;
+}
+
+.career .inFourth .mapL.te {
+    left: 44%;
+    top: 19%;
+}
+
+.career .inFourth .mapL.el {
+    left: 49%;
+    top: 23%;
+}
+
+.career .inFourth .mapL.tw {
+    left: 55%;
+    top: 15%;
+}
+
+.career .inFourth .mapL.thi {
+    left: 11%;
+    top: 43%;
+}
+
+.career .inFourth .mapL.fo {
+    left: 83%;
+    top: 39%;
+}
+
+.slickSliderContainer {
+    max-width: 1052px;
+    margin: auto;
+    margin-top: -19vw;
+    margin-bottom: 10px;
+}
+
+.testimonial {
+    padding: 16px;
+}
+
+.testimonial .inTm {
+    border: 1px solid rgb(229, 232, 235);
+    background-color: #fff;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 320px;
+    min-height: 450px;
+    padding: 20px 20px 32px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+#dark .testimonial .inTm {
+    background-color: rgb(76, 80, 92);
+    border: 1px solid rgb(21, 27, 34);
+}
+
+.testimonial .inTm p {
+    text-align: center;
+    color: rgb(112, 122, 131);
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+}
+
+#dark .testimonial .inTm p {
+    color: rgb(255, 255, 255);
+}
+
+.testimonial .inTm p.tMname {
+    font-weight: 600;
+    color: rgb(4, 17, 29);
+}
+
+.testimonial .inTm .inTmImg {
+    max-width: 70px;
+    height: 70px;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.inTmImg img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.career .inFifth {
+    max-width: 700px;
+    margin: auto;
+}
+
+.career .inFifth h2, .career .inFifth p,
+.career .eight h2, .career .eight p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.career .seven h2, .career .seven p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.career .eight .eightP {
+    margin-bottom: 50px;
+}
+
+.career .accordion .answer p {
+    text-align: left;
+}
+
+.career .seven .grid {
+    width: 100%;
+    padding: 50px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.career .seven .grid div {
+    width: 228px;
+    margin: 20px;
+    text-align: center;
+}
+
+.career .seven .grid div img {
+    width: 55px;
+}
+
+.career .seven .grid div p {
+    margin: 0;
+}
+
+.career .seven .grid div p:nth-child(2) {
+    font-weight: 600;
+    font-size: 18px;
+    color: rgb(4, 17, 29);
+    margin: 20px 0px 10px;
+}
+
+.career .seven .grid div p:nth-child(3) {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(53, 56, 64);
+}
+
+.career .eightCon {
+    border-top: 1px solid rgb(229, 232, 235);
+    border-bottom: 1px solid rgb(229, 232, 235);
+    padding-bottom: 65px;
+}
+
+#dark .career .eightCon {
+    border-top: 1px solid rgb(21, 27, 34);
+    border-bottom: 1px solid rgb(21, 27, 34);
+}
+
+.career .PsFi {
+    padding-top: 70px;
+    padding-bottom: 30px;
+    max-width: 1100px;
+    gap: 50px;
+}
+
+.career .PsFi .PsFiL, .career .PsFi .PsFiR {
+    width: 100%;
+}
+
+@media screen and (max-width: 1199px) {
+    .career .inFirst {
+        flex-direction: column-reverse;
+    }
+
+    .career .inFirst .left {
+        margin-top: 0px;
+        text-align: center;
+        max-width: 720px;
+    }
+
+    .career .inFirst .left .left_footer {
+        flex-direction: column;
+    }
+
+    .career .inFirst .right {
+        width: 50%;
+    }
+
+    .slickSliderContainer {
+        max-width: 702px;
+    }
+
+    .career .seven .grid {
+        max-width: 800px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .career .inFirst .right {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 815px) {
+    .career .second .slideBox {
+        padding: 10px;
+    }
+
+    .slickSliderContainer {
+        max-width: 320px;
+    }
+}

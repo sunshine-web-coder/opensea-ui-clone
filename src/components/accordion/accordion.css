@@ -1,0 +1,80 @@
+.accordionContainer {
+    max-width: 550px;
+    width: 100%;
+    margin: auto;
+}
+.TaxResources .accordionContainer{
+    max-width: 800px;
+}
+.accordion {
+    font-size: 16px;
+}
+
+.accordion a {
+    color: rgb(32, 129, 226);
+}
+
+.accordion .question {
+    width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(229, 232, 235);
+    cursor: pointer;
+    display: flex;
+    padding: 20px;
+    user-select: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(4, 17, 29);
+
+}
+.accordion .question:first-child {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.accordion .question:last-child {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#dark .accordion .question{
+    color: rgb(255, 255, 255);
+    background-color: rgb(38, 43, 47);
+    border-bottom: 1px solid rgb(21, 27, 34);
+}
+.accordion .question span {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.accordion .answer {
+    padding: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 26px;
+    white-space: pre-wrap;
+    transition: height 100ms ease 0s;
+    color: rgb(53, 56, 64);
+    border-bottom: 1px solid rgb(229, 232, 235);
+}
+#dark .accordion .answer{
+    color: rgb(229, 232, 235);
+    background-color: rgb(38, 43, 47);
+    border-bottom: 1px solid rgb(21, 27, 34);
+}
+.accordion .answer p {
+    font-weight: 400;
+    font-size: 16px;
+    
+}
+
+@media screen and (max-width: 500px) {
+    .accordion .question {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .accordion .question span {
+        font-size: 17px;
+    }
+
+}

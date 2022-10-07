@@ -1,0 +1,534 @@
+.about {
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.inabTy {
+    max-width: 1320px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    gap: 30px;
+    margin-top: 90px;
+}
+
+.inabTy .left {
+    width: 100%;
+}
+
+.inabTy .left a {
+    color: rgb(32, 129, 226);
+}
+
+.inabTy .left h1 {
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 0px;
+    color: rgb(4, 17, 29);
+    margin-top: 0;
+    margin-bottom: 45px;
+}
+
+#dark .inabTy .left h1 {
+    color: rgb(255, 255, 255);
+}
+
+.inabTy .left p {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(53, 56, 64);
+}
+
+#dark .left p {
+    color: rgb(229, 232, 235);
+}
+
+.inabTy .left p.inaP {
+    margin-bottom: 30px;
+}
+
+.inabTy .right {
+    width: 100%;
+}
+
+
+.inabTy .right .riGN {
+    display: inline-block;
+    max-width: 92%;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.inabTy .right .riGN img {
+    max-width: 100%;
+    height: 100%;
+}
+
+.inBm {
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.inBm div {
+    width: 90px;
+    margin: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inBm div img {
+    max-width: 40px;
+    margin-bottom: 20px;
+}
+
+.inBm div p {
+    margin: 0;
+}
+
+.inBm div p:nth-child(2) {
+    font-weight: 600;
+    font-size: 24px;
+    color: rgb(4, 17, 29);
+}
+
+#dark .inBm div p:nth-child(2) {
+    color: rgb(255, 255, 255);
+}
+
+.inBm div p:nth-child(3) {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(53, 56, 64);
+}
+
+#dark .inBm div p:nth-child(3) {
+    color: rgb(229, 232, 235);
+}
+
+.thgF, .about .four, .about .five {
+    max-width: min(1280px, 100% - 80px);
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.thgFTitle h2, .about .four h2, .about .six h2,
+.about .seven h2, .about .eight h2 {
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 0px;
+    color: rgb(4, 17, 29);
+    text-align: center;
+    margin: 0;
+}
+
+#dark .thgFTitle h2, #dark .about .four h2, #dark .about .six h2,
+#dark .about .seven h2, #dark .about .eight h2 {
+    color: rgb(255, 255, 255);
+}
+
+.thgFTitle p, .about .four p, .about .five p,
+.about .seven p, .about .eight p,
+.fiveIn div p:nth-child(3), .about .six p {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(53, 56, 64);
+    margin-top: 8px;
+    text-align: center;
+}
+
+#dark .thgFTitle p, #dark .about .four p, #dark .about .five p,
+#dark .about .seven p, #dark .about .eight p,
+#dark .fiveIn div p:nth-child(3), #dark .about .six p {
+    color: rgb(229, 232, 235);
+}
+
+.inthgF {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.inthgF .left, .inthgF .right {
+    width: 50%;
+}
+
+.inthgF .left {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.inthgF .left img {
+    max-width: 75%;
+}
+
+.inthgF .right {
+    line-height: 26px;
+}
+
+#dark .inthgF .right p {
+    color: rgb(229, 232, 235);
+}
+
+.inthgF .right span {
+    color: rgb(32, 129, 226);
+    cursor: pointer;
+}
+
+.about .four {
+    margin-top: 80px;
+}
+
+.fourIn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 1260px;
+    margin: auto;
+    margin-bottom: 120px;
+    margin-top: 40px;
+}
+
+.fourIn div {
+    width: 190px;
+    padding: 0px 16px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourIn div:last-child img {
+    max-width: 50%;
+}
+
+.about .five h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    color: rgb(4, 17, 29);
+    margin: 0;
+}
+
+#dark .about .five h3 {
+    color: rgb(255, 255, 255);
+}
+
+.fiveIn {
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin-top: 40px;
+    max-width: 1360px;
+}
+
+.fiveIn div {
+    width: 230px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.fiveIn div img {
+    margin-bottom: 20px;
+    max-width: 60%;
+}
+
+.fiveIn div p {
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(4, 17, 29);
+    margin: 0;
+}
+
+#dark .fiveIn div p {
+    color: rgb(229, 232, 235);
+}
+
+.fiveIn div p:nth-child(3) {
+    margin: 0;
+}
+
+.slickHGDmK {
+    max-width: min(1280px, 100% - 80px);
+    margin: auto;
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.slickHGDmK .slickBox {
+    width: 100%;
+    padding: 10px;
+}
+
+.slickHGDmK .slickBox a {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(53, 56, 64)
+}
+
+.slickBoxIn {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgb(229, 232, 235);
+    background-color: rgb(255, 255, 255);
+}
+
+#dark .slickBoxIn {
+    border: 1px solid rgb(21, 27, 34);
+    background-color: rgb(48, 51, 57);
+}
+
+.slickBoxInImg {
+    width: 100%;
+    height: 215px;
+    border-bottom: 1px solid rgb(229, 232, 235);
+    background-color: transparent;
+    display: flex;
+    -webkit-box-pack: center;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#dark .slickBoxInImg {
+    border: 1px solid rgb(21, 27, 34);
+}
+
+.slickBoxInImg img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: opacity 400ms ease 0s;
+}
+
+.slickBoxInTxt {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.about .slickBoxInTxt p {
+    text-align: left;
+}
+
+.slickBoxInTxt img {
+    width: 80px;
+}
+
+.about .six {
+    background-color: #ffffff;
+}
+
+.sixFooter {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(53, 56, 64);
+    margin-top: 50px;
+}
+
+.sixFooter a, .about .seven a {
+    color: rgb(32, 129, 226);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.about .seven {
+    border-top: 1px solid rgb(229, 232, 235);
+    border-bottom: 1px solid rgb(229, 232, 235);
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.about .seven .sevenIn {
+    max-width: min(1280px, 100% - 80px);
+    margin: auto;
+}
+
+.about .eight {
+    max-width: min(1280px, 100% - 80px);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.about .eight .eightP {
+    margin-bottom: 50px;
+}
+
+.overlayAb {
+    position: fixed;
+    background-attachment: fixed;
+    inset: 0px;
+    z-index: 140;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out 0s;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.about .modal {
+    border: 1px solid transparent;
+    position: relative;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    width: 550px;
+    max-height: calc(100vh - 0px);
+    max-width: calc(100% - 32px);
+}
+
+.modal .modalTitle {
+    position: relative;
+}
+
+.modal .modalTitle h4 {
+    padding: 0px 24px;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(4, 17, 29);
+    text-align: center;
+}
+#dark .modal .modalTitle h4{
+    color: rgb(255, 255, 255);
+}
+.modal .modalImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal .modalTxt {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(53, 56, 64);
+    text-align: center;
+}
+#dark .modal .modalTxt{
+    color: rgb(229, 232, 235);
+}
+.modal .modalFooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal .modalFooter .mInfooter {
+    display: flex;
+    width: fit-content;
+}
+
+.modal .modalFooter .mInfooter a {
+    display: inline-flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    padding: 17px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(229, 232, 235);
+    color: rgb(4, 17, 29);
+}
+#dark .modal .modalFooter .mInfooter a{
+    background-color: rgb(32, 34, 37);
+    border: 2px solid rgb(76, 80, 92);
+    color: rgb(255, 255, 255);
+}
+.modal .modalFooter .mInfooter a:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.modal .modalFooter .mInfooter a:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.modal .modalFooter .mInfooter a:not(:first-child) {
+    margin-left: -2px;
+}
+
+.closeIconx {
+    position: absolute;
+    right: 24px;
+    top: 0px;
+    cursor: pointer;
+    z-index: 1;
+    color: rgb(53, 56, 64);
+}
+
+@media screen and (max-width: 1199px) {
+    .inabTy {
+        flex-direction: column-reverse;
+    }
+
+    .inthgF {
+        flex-direction: column;
+    }
+
+    .inthgF .left, .inthgF .right {
+        width: 100%;
+    }
+
+    .inabTy .right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .inabTy .left h1 {
+        text-align: center;
+    }
+
+    .slickHGDmK {
+        max-width: 832px;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 814px) {
+    .slickHGDmK {
+        max-width: 450px;
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .fourIn {
+        gap: 20px;
+    }
+
+    .slickHGDmK {
+        width: 100%;
+
+    }
+}

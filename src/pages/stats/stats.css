@@ -1,0 +1,634 @@
+.stats {
+    padding-top: 105px;
+    width: 100%;
+    /* height: auto; */
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.statsHeader {
+    margin: auto;
+}
+
+.statSHeaderTitle {
+    margin-bottom: 60px;
+}
+
+.sHtitle {
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 0px;
+    color: rgb(4, 17, 29);
+    text-align: center;
+}
+
+#dark .sHtitle {
+    color: rgb(255, 255, 255);
+}
+
+.statsHeader p {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(53, 56, 64);
+    text-align: center;
+}
+
+#dark .statsHeader p {
+    color: rgb(229, 232, 235);
+}
+
+
+.stats .assetMainSidebar {
+    width: 450px;
+}
+
+.statsInputContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.statsInputContainerLeft {
+    display: flex;
+    gap: 10px;
+}
+
+.sIBox {
+    width: max-content;
+    /* margin: 10px; */
+    cursor: pointer;
+    position: relative;
+}
+
+.sIBox .inAhRLuP {
+    padding: 8px 12px;
+    padding-right: 40px;
+    max-width: 170px;
+
+}
+
+
+.stats .inAhRLuP input {
+    width: 100%;
+}
+
+#dark .sIBox button {
+    border: 2px solid rgb(76, 80, 92);
+}
+
+#dark .sIBox button:hover {
+    border: 2px solid #788a9ccb;
+}
+
+.sIBox button input {
+    width: 100%;
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(4, 17, 29);
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#dark .sIBox button input {
+    color: rgb(255, 255, 255);
+}
+
+.sIBoxX button input {
+    padding-left: 10px;
+}
+
+.sIboxMenuDrop {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    border-radius: 10px;
+    overflow-y: auto;
+    box-shadow: rgb(0 0 0 / 16%) 0px 4px 16px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(4, 17, 29);
+    max-width: initial;
+    max-height: 350px;
+    z-index: 10;
+}
+
+#dark .sIboxMenuDrop {
+    background-color: #303339;
+    color: rgb(229, 232, 235);
+}
+
+.sIboxMenuDrop ul {
+    padding: 0;
+    margin: 0;
+}
+
+.inAhRLuPRa {
+    border: 2px solid rgb(229, 232, 235);
+    height: 36px;
+    border-radius: 12px;
+}
+
+#dark .inAhRLuPRa {
+    border: 2px solid rgb(76, 80, 92);
+}
+
+.RankRadioBtn {
+    border-radius: 0;
+}
+
+.inAhRLuPRa .btn-group {
+    border: none;
+    height: 100%;
+}
+
+/* #dark .inAhRLuPRa .btn-group {
+    border: 2px solid rgb(76, 80, 92);
+} */
+
+.inAhRLuPRa .btn-group label {
+    color: rgb(112, 122, 131);
+    font-weight: 600;
+    border: none;
+    height: 100%;
+}
+
+.inAhRLuPRa .btn-group .btn-check:checked+.btn {
+    background-color: #F2F3F5;
+    color: rgb(4, 17, 29);
+    font-weight: 600;
+}
+
+#dark .inAhRLuPRa .btn-group .btn-check:checked+.btn {
+    background-color: #353840;
+    color: #fff;
+}
+
+.inAhRLuPRa .btn-group .btn-outline-danger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+    border-radius: 10px;
+}
+
+.sIboxMenuDrop ul li {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.418);
+    text-align: left;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#dark .sIboxMenuDrop ul li {
+    border-bottom: 1px solid rgb(21, 27, 34);
+}
+
+#dark .sIboxMenuDrop ul li:hover {
+    transition: all 0.2s ease 0s;
+    box-shadow: rgb(4 17 29 / 25%) 0px 0px 8px 0px;
+    background-color: rgb(38, 43, 47);
+}
+
+.sIboxMenuDrop ul li:first-child {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.sIboxMenuDrop ul li:last-child {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+}
+
+.sIboxMenuDrop ul li:hover {
+    transition: all 0.2s ease 0s;
+    box-shadow: rgb(4 17 29 / 25%) 0px 0px 8px 0px;
+    background-color: rgb(251, 253, 255);
+}
+
+.sIBox button img {
+    width: 25px;
+}
+
+.sIboxMenuDrop ul li img {
+    width: 25px;
+}
+
+.sIboxMenuDrop ul li .aRdown {
+    color: rgb(4, 17, 29);
+}
+
+/* RankingRe style */
+
+.rreHeaderRight {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 45%;
+    margin-right: 90px;
+}
+
+.nHmRan {
+    position: relative;
+    width: 100%;
+}
+
+.rreHeader, .rRe_roleItems {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    position: sticky;
+    top: 72px;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+    /* border-bottom: 1px solid rgb(229, 232, 235); */
+    color: rgb(4, 17, 29);
+
+}
+
+#dark .rreHeader, #dark .rRe_roleItems {
+    background-color: #202225;
+    border-bottom: 1px solid rgb(21, 27, 34);
+    color: rgb(255, 255, 255);
+
+}
+
+.rRe_roleItems {
+    width: 100%;
+}
+
+.rRe_roleItems:hover {
+    transition: all 0.2s ease 0s;
+    background-color: rgba(229, 232, 235, 0.2);
+}
+
+#dark .rRe_roleItems:hover {
+    background-color: rgb(38, 43, 47);
+}
+
+.rrBtnBoxStarIcon {
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.watchListIcon {
+    font-size: 30px !important;
+}
+
+.watchListIcon:hover {
+    color: rgb(110, 110, 110);
+    transition: .3s ease-in-out;
+}
+
+.rrCol {
+    width: 400px;
+    display: flex;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    flex: 0 0 400px;
+    -webkit-box-flex: 0;
+    -webkit-box-align: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+.rrCol p {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgb(101, 136, 146);
+    text-transform: uppercase;
+}
+
+.RRfloorPriMo {
+    display: none;
+}
+
+/* #dark .rrCol p {
+    color: rgb(255, 255, 255);
+} */
+
+.rrBtnBox {
+    width: max-content;
+    display: flex;
+    -webkit-box-pack: end;
+    justify-content: flex-start;
+    /* flex: 0 0 125px; */
+    -webkit-box-flex: 0;
+    -webkit-box-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.rreHeader button {
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: 100%;
+    font-family: inherit;
+    border: 0px;
+    appearance: button;
+    cursor: pointer;
+    background: inherit;
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(4, 17, 29);
+    text-align: center;
+}
+
+#dark .rreHeader button {
+    color: rgb(255, 255, 255);
+}
+
+.dropDicon {
+    cursor: pointer;
+    color: rgb(4, 17, 29);
+}
+
+.rRe_roleList a {
+    font-weight: 600;
+    color: rgb(53, 56, 64);
+}
+
+.rrCImg {
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    max-height: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 30%;
+    position: relative;
+}
+
+.rrCImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.rrCiV {
+    position: relative;
+}
+
+.rrBtnBox .chainLogo {
+    width: 10px;
+    margin-right: 8px;
+}
+
+.rrBtnBox.perc {
+    color: rgb(52, 199, 123);
+}
+
+.rrBtnBox .hfhf {
+    display: flex;
+    flex-direction: column;
+}
+
+.rrBtnBox .hfhf span:nth-child(2) {
+    display: none;
+}
+
+.rrCname {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: rgb(4, 17, 29);
+}
+
+/* pagination */
+.css-16c50h-MuiInputBase-root-MuiTablePagination-select,
+.css-pdct74-MuiTablePagination-selectLabel {
+    display: none !important;
+}
+
+#dark .css-78c6dr-MuiToolbar-root-MuiTablePagination-toolbar {
+    color: rgb(255, 255, 255);
+}
+
+#dark .css-zylse7-MuiButtonBase-root-MuiIconButton-root.Mui-disabled {
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.521);
+}
+
+.title_btn_box {
+    position: relative;
+}
+
+.title_btn_box .title_btn_box_arrow {
+    position: absolute;
+    right: 0;
+    top: 11px;
+}
+
+.title_btn_box .title_btn_box_arrow.volume {
+    right: -5px;
+}
+
+.title_btn_box .title_btn_box_arrow.change {
+    right: -12px;
+}
+
+.title_btn_box .title_btn_box_arrow.sale {
+    right: 3px;
+}
+
+.title_btn_box .title_btn_box_arrow.FloorPrice {
+    right: -18px;
+}
+
+.topNftRankingRight {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    margin-right: 120px;
+}
+
+.RankTimeDropDnw {
+    display: none;
+}
+
+.RankTimeDropDnwValue {
+    padding: 10px;
+    font-weight: 600;
+    position: relative;
+    font-size: 14px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    padding-top: 5;
+    width: 75px;
+}
+
+.RankTimeDropDnwValue::after {
+    display: block;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-right: 2px solid #202225;
+    border-bottom: 2px solid #202225;
+    transform: rotate(45deg);
+    position: absolute;
+    right: 20px;
+    top: 8px;
+}
+
+#dark .RankTimeDropDnwValue {
+    color: #F2F3F5;
+}
+
+#dark .RankTimeDropDnwValue::after {
+    border-right: 2px solid #F2F3F5;
+    border-bottom: 2px solid #F2F3F5;
+}
+
+.RankTimeDropDnw .custom-dropdown-items {
+    max-width: initial;
+    min-width: 90px;
+}
+
+.volumeTxt {
+    display: none;
+}
+
+@media screen and (max-width: 1023px) {
+    .rankingRe {
+        padding: 0;
+    }
+
+    .rreHeader {
+        padding-left: 25px;
+    }
+
+    .RankRadioBtn {
+        display: none;
+    }
+
+    .RankTimeDropDnw {
+        display: block;
+    }
+
+    .title_btn_box {
+        display: none;
+    }
+
+    .volumeTxt {
+        line-height: 20px;
+        border-radius: 10px;
+        color: rgb(101, 136, 146);
+        font-size: 12px;
+        font-weight: 600;
+        display: block;
+    }
+
+    .rreHeaderRight {
+        margin-right: 70px;
+        width: min-content;
+    }
+
+    .rrBtnBox, .rrCname {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .rrBtnBox:nth-child(2),
+    .rrBtnBox:nth-child(3),
+    .rrBtnBox:nth-child(4) {
+        display: none;
+    }
+
+    .topNftRankingRight {
+        justify-content: center;
+        margin-right: 60px;
+        width: min-content;
+        gap: 20px;
+    }
+
+    .nHmRan {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nHmRan a {
+        width: 100%;
+    }
+
+    .rrBtnBoxStarIcon {
+        position: absolute;
+        right: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rrBtnBox .hfhf span:nth-child(2) {
+        display: block;
+        color: rgb(52, 199, 123);
+    }
+
+    .rrCname.RRvcolName {
+        position: relative;
+        top: -7px;
+    }
+
+    .RRfloorPriMo {
+        display: block;
+        position: absolute;
+        left: 80px;
+        top: 28px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        color: rgb(112, 122, 131);
+    }
+
+    .RRfloorPriMo strong {
+        font-weight: 600;
+    }
+
+}
+
+@media screen and (max-width: 599px) {
+    .topNftRankingRight, .rreHeaderRight {
+        margin: 0;
+    }
+
+    .rrBtnBoxStarIcon {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .stats {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .inAhRLuP {
+        padding: 8px 12px;
+    }
+
+    .sIBox .inAhRLuP {
+        padding-right: 30px;
+    }
+}

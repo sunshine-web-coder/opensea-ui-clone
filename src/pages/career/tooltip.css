@@ -1,0 +1,37 @@
+.career .inFourth .tooltip {
+    position: absolute;
+    left: -110px;
+    top: -110px;
+    border: 1px solid red;
+    z-index: 10;
+    margin-left: 20px;
+}
+
+.career .inFourth .inTooltip {
+    background-color: #04111D;
+    width: max-content;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.career .inFourth .inTooltip:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-top: 10px solid #04111D;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    margin-top: 20px;
+}
+
+.career .inFourth .inTooltip p {
+    margin: 0;
+    font-weight: 600;
+    color: rgb(229, 232, 235);
+    font-size: 20px;
+}

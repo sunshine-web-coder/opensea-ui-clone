@@ -1,0 +1,126 @@
+.gasfree {
+    padding-top: 70px;
+    padding-bottom: 120px;
+}
+
+.gasfree .tPartner {
+    display: flex;
+    max-width: 1270px;
+    margin: auto;
+    align-items: flex-start;
+    padding-left: 30px;
+    padding-right: 30px;
+    gap: 70px;
+}
+
+.gasfree .tPartner .tPtxt h1 {
+    max-width: 500px;
+    margin-bottom: 50px;
+}
+
+.gasfree .tPartner .tPtxt p:nth-child(2) {
+    margin-bottom: 30px;
+}
+
+.gasfree .tPartner .tPtxt p:nth-child(3) {
+    margin-bottom: 45px;
+}
+
+.gasfree .tPartner .tPimg {
+    max-width: 50%;
+}
+
+.gasfree .tPtxt .site_button {
+    color: #ffffff;
+}
+
+.gasfree .sEig {
+    padding-top: 70px;
+    padding-bottom: 10px;
+}
+.gasfree .sEig .titleD{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.gasfree .sEig .inSeig {
+    max-width: 1230px;
+    margin: auto;
+}
+
+.gasfree .sSix {
+    padding-top: 30px !important;
+}
+
+.gasfree .inSsixBoxImg {
+    height: 200px;
+}
+
+.gasfree .inSsixBoxImg img {
+    height: 100%;
+    object-fit: contain;
+    transition: opacity 400ms ease 0s;
+    width: 100%;
+    object-fit: cover;
+}
+
+.gasfree .inSsixBoxTxt {
+    padding: 20px;
+    text-align: center;
+}
+
+.gasfree .sSix .sTitle {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.gasfree .sSix p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(53, 56, 64);
+}
+
+#dark .gasfree .sSix p {
+    color: rgb(229, 232, 235);
+}
+
+.gasfree .inSsix {
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.gUnna {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.gasfree .site_button {
+    padding: 20px;
+}
+
+@media screen and (max-width: 1199px) {
+    .gasfree .tPartner {
+        gap: 50px;
+    }
+
+    .gasfree .tPartner .tPimg {
+        margin: auto;
+    }
+
+    .gasfree .tPartner .tPimg img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .gasfree .tPartner .tPtxt h1 {
+        max-width: 100%;
+    }
+
+    .gasfree .tPartner {
+        text-align: center;
+    }
+}
